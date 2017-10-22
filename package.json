@@ -1,0 +1,29 @@
+{
+	"name": "dracula-theme-from-intellij-pythoned",
+	"displayName": "Darcula 2.0 Python Adapted",
+	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
+	"version": "0.1.0",
+	"license": "MIT",
+	"publisher": "danields761",
+	"preview": true,
+	"extensionDependencies": [
+		"magicstack.magicpython"
+	],
+	"repository": "https://github.com/danields761/vs-code-darcula20-theme",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula Theme 2.0",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula-color-theme.json"
+			}
+		]
+	}
+}
