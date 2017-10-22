@@ -419,18 +419,18 @@
 			}
 		},
 		{
+			"scope": "variable.language.special",
+			"settings": {
+				"foreground": "#a152a8",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#CC7832",
 				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": "variable.language.special support.python",
-			"settings": {
-				"foreground": "#a152a8",
-				"fontStyle": ""
 			}
 		},
 		{
