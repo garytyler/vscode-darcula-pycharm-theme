@@ -306,11 +306,12 @@
 		},
 		{
 			"scope": [
-				"meta.function.decorator.python",
-				"meta.function.decorator.python support.type.python"
+				"entity.name.function.decorator",
+				"entity.name.function.decorator support.type.python"
 			],
 			"settings": {
-				"foreground": "#BBB529"
+				"foreground": "#BBB529",
+				"fontStyle": ""
 			}
 		},
 		{
