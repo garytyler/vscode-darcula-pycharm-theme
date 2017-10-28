@@ -2,7 +2,7 @@
 	"name": "dracula-theme-from-intellij-pythoned",
 	"displayName": "Darcula 2.0 Python Adapted",
 	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"license": "MIT",
 	"publisher": "danields761",
 	"preview": true,

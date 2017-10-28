@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.3]
+
+- Make highlighting of the editor problems brighter
+
 ## [0.1.2]
 
 - Change  decorator colorization rules, removing font bolding and colorization of some arguments

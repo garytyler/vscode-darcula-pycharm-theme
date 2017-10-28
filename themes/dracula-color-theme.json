@@ -9,9 +9,9 @@
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.background": "#404040",
 		
-		"editorError.foreground": "#913B39",
-		"editorWarning.foreground": "#52503A",
-		"editorInfo.foreground": "#527856"
+		"editorError.foreground": "#903332",
+		"editorWarning.foreground": "#797234",
+		"editorInfo.foreground": "#53975a"
 	},
 	"tokenColors": [
 		{

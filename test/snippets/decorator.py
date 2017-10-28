@@ -17,6 +17,14 @@ class A:
     def meth2(cls):
         pass
 
+    @staticmethod
+    def test():
+        pass
+
+    @classmethod
+    def test(cls):
+        pass
+
 
 @decorator
 @argued_decorator(int, 100, 'test', enumerate)
