@@ -9,7 +9,7 @@
      "extensionDependencies": [
       "magicstack.magicpython"
      ],
-     "repository": "https://github.com/garytyler/darcula-pycharm",
+    "repository": "https://github.com/garytyler/darcula-pycharm",
     "engines": {
         "vscode": "^1.21.0"
     },
