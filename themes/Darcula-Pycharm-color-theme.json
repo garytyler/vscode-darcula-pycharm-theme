@@ -8,10 +8,19 @@
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.background": "#404040",
-		
-		"editorError.foreground": "#903332",
-		"editorWarning.foreground": "#797234",
-		"editorInfo.foreground": "#53975a"
+		"tab.activeBackground": "#2B2B2B",
+		//"tab.activeBorder": "#439EB8",
+		"tab.inactiveBackground": "#353535",
+		"editorGroupHeader.tabsBackground": "#222222",
+		"editorGutter.background": "#2B2B2B",
+		"activityBar.foreground": "#D0D0D0",
+		"activityBar.background": "#2B2B2B",
+		"sideBar.background": "#222222",
+		"sideBarTitle.foreground": "#888888",
+		"sideBarSectionHeader.background": "#2D2D2D",
+		"sideBar.foreground": "#B6B6B6",
+		"statusBar.background": "#3C3F41",
+		"statusBar.foreground": "#949494"
 	},
 	"tokenColors": [
 		{
@@ -47,8 +56,7 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -199,7 +207,7 @@
 		{
 			"scope": "meta.structure.dictionary.key.python",
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -211,7 +219,7 @@
 		{
 			"scope": "meta.class.inheritance",
 			"settings": {
-				"foreground": "#d4d4d4ff"
+				"foreground": "#A9B7C6"
 			}
 		},
 		{
@@ -223,15 +231,13 @@
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"foreground": "#CC7832"
 			}
 		},
 		{
 			"scope": "storage.modifier",
 			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -240,7 +246,7 @@
 				"string storage.type.string"
 			],
 			"settings": {
-				"foreground": "#00795E"
+				"foreground": "#6A8759"
 			}
 		},
 		{
@@ -249,7 +255,7 @@
 				"string.quoted.docstring.multi storage.type.string"
 			],
 			"settings": {
-				"foreground": "#6A8759",
+				"foreground": "#629755",
 				"fontStyle": "bold"
 			}
 		},
@@ -280,7 +286,7 @@
 				"variable.other.less"
 			],
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -289,7 +295,7 @@
 				"support.variable.property.dom"
 			],
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -310,8 +316,7 @@
 				"entity.name.function.decorator support.type.python"
 			],
 			"settings": {
-				"foreground": "#BBB529",
-				"fontStyle": ""
+				"foreground": "#BBB529"
 			}
 		},
 		{
@@ -329,7 +334,8 @@
 				"variable.parameter.function.language.special"
 			],
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#94558D",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -366,8 +372,8 @@
 				"keyword.operator.logical.python"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
+				"foreground": "#CC7832",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -388,7 +394,7 @@
 		{
 			"scope": "support.function.git-rebase",
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA"
 			}
 		},
 		{
@@ -422,16 +428,15 @@
 		{
 			"scope": "variable.language.special",
 			"settings": {
-				"foreground": "#a152a8",
-				"fontStyle": ""
+				"foreground": "#94558D",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"foreground": "#CC7832"
 			}
 		},
 		{
@@ -442,13 +447,14 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"fontStyle": "bold"
+    "foreground": "#FFC66D",
+				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "entity.name.type",
 			"settings": {
-				"fontStyle": "bold"
+    "foreground": "#FFC66D"
 			}
 		},
 		{
@@ -491,7 +497,6 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -540,7 +545,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA" //"#8F5AAC"
 			}
 		},
 		{
@@ -550,7 +555,7 @@
 				"meta.object-literal.key entity.name.function"
 			],
 			"settings": {
-				"foreground": "#8f5aac"
+				"foreground": "#9876AA" //"#8F5AAC"
 			}
 		},
 		{

@@ -1,29 +1,28 @@
 {
-	"name": "dracula-theme-from-intellij-pythoned",
-	"displayName": "Darcula 2.0 Python Adapted",
-	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
-	"version": "0.1.4",
-	"license": "MIT",
-	"publisher": "danields761",
-	"preview": true,
-	"extensionDependencies": [
-		"magicstack.magicpython"
-	],
-	"repository": "https://github.com/danields761/vs-code-darcula20-theme",
-	"icon": "images/icon.png",
-	"engines": {
-		"vscode": "^1.12.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Darcula Theme 2.0",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dracula-color-theme.json"
-			}
-		]
-	}
+    "name": "darcula-pycharm",
+    "displayName": "Darcula Pycharm",
+    "description": "A fork of danields761's Darcula 2.0 Python theme modified to match PyCharm colors",
+    "version": "0.0.1",
+    "license": "MIT",
+    "publisher": "garytyler",
+    "preview": true,
+     "extensionDependencies": [
+      "magicstack.magicpython"
+     ],
+     "repository": "https://github.com/garytyler/darcula-pycharm",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula Pycharm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula-pycharm-color-theme.json"
+            }
+        ]
+    }
 }
