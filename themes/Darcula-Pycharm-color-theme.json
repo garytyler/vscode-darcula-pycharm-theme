@@ -9,12 +9,12 @@
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.background": "#404040",
 		"tab.activeBackground": "#2B2B2B",
-		//"tab.activeBorder": "#439EB8",
+		"tab.inactiveBorder": "#439EB8",
 		"tab.inactiveBackground": "#353535",
 		"editorGroupHeader.tabsBackground": "#222222",
 		"editorGutter.background": "#2B2B2B",
 		"activityBar.foreground": "#D0D0D0",
-		"activityBar.background": "#2B2B2B",
+		"activityBar.background": "#303030",
 		"sideBar.background": "#222222",
 		"sideBarTitle.foreground": "#888888",
 		"sideBarSectionHeader.background": "#2D2D2D",
@@ -335,7 +335,7 @@
 			],
 			"settings": {
 				"foreground": "#94558D",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -354,7 +354,7 @@
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 			],
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
