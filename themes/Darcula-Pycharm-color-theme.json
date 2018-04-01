@@ -19,8 +19,8 @@
 		"sideBarTitle.foreground": "#888888",
 		"sideBarSectionHeader.background": "#2D2D2D",
 		"sideBar.foreground": "#B6B6B6",
-		"statusBar.background": "#3C3F41",
-		"statusBar.foreground": "#949494"
+  "statusBar.background" : "#333333",
+  "statusBar.foreground" : "#9F9F9F"
 	},
 	"tokenColors": [
 		{
@@ -256,7 +256,7 @@
 			],
 			"settings": {
 				"foreground": "#629755",
-				"fontStyle": "bold"
+				"fontStyle": "italic"
 			}
 		},
 		{
