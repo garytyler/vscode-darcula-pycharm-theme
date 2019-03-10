@@ -1,74 +1,86 @@
 {
     "type": "dark",
     "colors": {
-            /* Base Colors */
-            "foreground": "#BBBBBB",
-            /* Editor */
-            "editor.foreground": "#A9B7C6",
-            "editor.background": "#2B2B2B",
-            "editor.lineHighlightBackground": "#323232",
-            "editor.inactiveSelectionBackground": "#3a3d41",
-            "editor.selectionBackground": "#264F78",
-            "editorLineNumber.foreground": "#606366",
-            "editorLineNumber.activeForeground": "#A4A3A3",
-            "editorRuler.foreground": "#464646",
-            "editorGutter.background": "#313335",
-            "editorGroup.border": "#4B4B4B",
-            "editorCodeLens.foreground": "#565c63",
-            "editorIndentGuide.background": "#373737",
-            /* Tab */
-            "tab.border": "#555555",
-            "tab.activeBorder": "#4095AC",
-            "tab.activeBackground": "#515658",
-            "tab.inactiveForeground": "#BBBBBB",
-            "tab.unfocusedActiveForeground": "#BBBBBB",
-            "tab.unfocusedInactiveForeground": "#BBBBBB",
-            "tab.inactiveBackground": "#3C3F41",
-            /* Side Bar */
-            "sideBarSectionHeader.background": "#3B4754",
-            "sideBarSectionHeader.border": "#383838",
-            "sideBar.background": "#3C3F41",
-            "sideBar.border": "#4B4B4B",
-            /* List */
-            "list.dropBackground": "#474B4D",
-            "editorGroupHeader.tabsBorder": "#555555",
-            "editorGroupHeader.tabsBackground": "#3C3F41",
-            /* Panel */
-            "panelTitle.activeBorder": "#4A7A88",
-            "panel.background": "#3C3F41",
-            "panel.dropBackground": "#2B2B2B",
-            /* Terminal */
-            "terminal.background": "#2B2B2B",
-            "terminal.foreground": "#ADADAD",
-            /* Status Bar */
-            "statusBar.border": "#555555",
-            "statusBar.background": "#3C3F41",
-            /* Activity Bar */
-            "activityBar.border": "#4B4B4B",
-            "activityBar.background": "#2D2F30",
-            "activityBar.foreground": "#c5c5c5",
-            /* Menu */
-            "menu.foreground": "#ADADAD",
-            "menu.border": "#505050",
-            "menu.background": "#3C3F41",
-            /* List */
-            "list.hoverBackground": "#313335",
-            "list.inactiveSelectionBackground": "#0D293E",
-            "list.activeSelectionForeground": "#ADADAD",
-            /* Input */
-            "input.border": "#646464",
-            "input.background": "#45494A",
-            "input.foreground": "#BBBBBB",
-            /* Dropdown */
-            "dropdown.listBackground": "#646464",
-            /* Widgets */
-            "editorWidget.background": "#313335",
-            "editorWidget.border": "#4B4B4B",
-            "editorSuggestWidget.background": "#3C3F41",
-            /* Settings */
-            "settings.headerForeground": "#BBBBBB",
-            /* Resources */
-            "gitDecoration.ignoredResourceForeground": "#6d6d6d"
+        /* Base Colors */
+        "foreground": "#BBBBBB",
+        /* Title Bar */
+        "titleBar.activeBackground": "#313335",
+        "titleBar.inactiveBackground": "#333333",
+        "titleBar.border": "#303030",
+        /* Editor */
+        "editor.foreground": "#A9B7C6",
+        "editor.background": "#2B2B2B",
+        "editor.lineHighlightBackground": "#323232",
+        "editor.inactiveSelectionBackground": "#3a3d41",
+        "editor.selectionBackground": "#264F78",
+        "editorLineNumber.foreground": "#606366",
+        "editorLineNumber.activeForeground": "#A4A3A3",
+        "editorRuler.foreground": "#464646",
+        "editorGutter.background": "#313335",
+        "editorGroup.border": "#4B4B4B",
+        "editorCodeLens.foreground": "#565c63",
+        "editorIndentGuide.background": "#373737",
+        /* Tab */
+        "tab.border": "#555555",
+        "tab.activeBorder": "#4095AC",
+        "tab.activeBackground": "#515658",
+        "tab.inactiveForeground": "#BBBBBB",
+        "tab.unfocusedActiveForeground": "#BBBBBB",
+        "tab.unfocusedInactiveForeground": "#BBBBBB",
+        "tab.inactiveBackground": "#3C3F41",
+        /* Side Bar */
+        "sideBarSectionHeader.background": "#3B4754",
+        "sideBarSectionHeader.border": "#383838",
+        "sideBar.background": "#3C3F41",
+        "sideBar.border": "#4B4B4B",
+        /* List */
+        "list.dropBackground": "#474B4D",
+        "editorGroupHeader.tabsBorder": "#555555",
+        "editorGroupHeader.tabsBackground": "#3C3F41",
+        /* Panel */
+        "panelTitle.activeBorder": "#4A7A88",
+        "panel.background": "#3C3F41",
+        "panel.dropBackground": "#2B2B2B",
+        /* Terminal */
+        "terminal.background": "#2B2B2B",
+        "terminal.foreground": "#ADADAD",
+
+        /* Activity Bar */
+        "activityBar.border": "#4B4B4B",
+        "activityBar.background": "#2D2F30",
+        "activityBar.foreground": "#c5c5c5",
+        /* Menu */
+        "menu.foreground": "#ADADAD",
+        "menu.border": "#505050",
+        "menu.background": "#3C3F41",
+        /* List */
+        "list.hoverBackground": "#313335",
+        "list.inactiveSelectionBackground": "#0D293E",
+        "list.activeSelectionForeground": "#ADADAD",
+        /* Input */
+        "input.border": "#646464",
+        "input.background": "#45494A",
+        "input.foreground": "#BBBBBB",
+        /* Dropdown */
+        "dropdown.listBackground": "#646464",
+        /* Widgets */
+        "editorWidget.background": "#313335",
+        "editorWidget.border": "#4B4B4B",
+        "editorSuggestWidget.background": "#3C3F41",
+        /* Settings */
+        "settings.headerForeground": "#BBBBBB",
+        /* Status Bar */
+        "statusBar.foreground": "#BBBBBB",
+        "statusBar.noFolderForeground": "#BBBBBB",
+        "statusBar.debuggingForeground": "#BBBBBB",
+        "statusBar.background": "#3C3F41",
+        "statusBar.noFolderBackground": "#3C3F41",
+        "statusBar.debuggingBackground": "#3C3F41",
+        "statusBar.border": "#4B4B4B",
+        "statusBar.noFolderBorder": "#4B4B4B",
+        "statusBar.debuggingBorder": "#4B4B4B",
+        /* Resources */
+        "gitDecoration.ignoredResourceForeground": "#6d6d6d"
     },
     "tokenColors": [
         {

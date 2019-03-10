@@ -19,3 +19,7 @@
 ## [0.5.0]
 
 - Add icon, Update title bar color
+
+## [0.6.0]
+
+- Fix status bar colors
