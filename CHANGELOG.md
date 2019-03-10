@@ -11,3 +11,7 @@
 ## [0.3.0]
 
 - Removed bold, lighter activity bar
+
+## [0.4.0]
+
+- Closer match on imported classes, keyward args, block comments, and add GUI themes

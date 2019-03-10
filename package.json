@@ -1,33 +1,38 @@
 {
-	"name": "darcula-pycharm",
-	"displayName": "Darcula Pycharm",
-	"description": "A fork of danields761's Darcula 2.0 Python theme modified to match PyCharm colors",
-	"version": "0.3.0",
-	"license": "MIT",
-	"publisher": "garytyler",
-	"preview": true,
-	"extensionDependencies": [
-		"magicstack.magicpython"
-	],
-	"repository": "https://github.com/garytyler/darcula-pycharm",
-	"engines": {
-		"vscode": "^1.21.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Darcula Pycharm",
-				"uiTheme": "vs-dark",
-				"path": "./themes/darcula-pycharm-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
-		"publisherDisplayName": "garytyler",
-		"publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779"
-	}
+    "name": "darcula-pycharm",
+    "displayName": "Darcula Pycharm",
+    "description": "A fork of danields761's Darcula 2.0 Python theme modified to match PyCharm colors",
+    "version": "0.4.0",
+    "license": "MIT",
+    "publisher": "garytyler",
+    "preview": true,
+    "extensionDependencies": [
+        "magicstack.magicpython"
+    ],
+    "repository": "https://github.com/garytyler/darcula-pycharm",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darcula Pycharm with Dark GUI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula-pycharm-dark-gui-color-theme.json"
+            },
+            {
+                "label": "Darcula Pycharm with Light GUI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula-pycharm-light-gui-color-theme.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
+        "publisherDisplayName": "garytyler",
+        "publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779"
+    }
 }
