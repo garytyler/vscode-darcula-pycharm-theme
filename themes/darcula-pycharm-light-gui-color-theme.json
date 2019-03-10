@@ -4,7 +4,7 @@
         /* Base Colors */
         "foreground": "#BBBBBB",
         /* Title Bar */
-        "titleBar.activeBackground": "#313335",
+        "titleBar.activeBackground": "#444444",
         "titleBar.inactiveBackground": "#333333",
         "titleBar.border": "#303030",
         /* Editor */
@@ -43,8 +43,7 @@
         "panel.dropBackground": "#2B2B2B",
         /* Terminal */
         "terminal.background": "#2B2B2B",
-        "terminal.foreground": "#ADADAD",
-
+        "terminal.foreground": "#BBBBBB",
         /* Activity Bar */
         "activityBar.border": "#4B4B4B",
         "activityBar.background": "#2D2F30",
@@ -63,6 +62,8 @@
         "input.foreground": "#BBBBBB",
         /* Dropdown */
         "dropdown.listBackground": "#646464",
+        "dropdown.foreground": "#BBBBBB",
+        "dropdown.border": "#646464",
         /* Widgets */
         "editorWidget.background": "#313335",
         "editorWidget.border": "#4B4B4B",

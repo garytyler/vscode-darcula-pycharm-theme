@@ -6,7 +6,7 @@
         /* Title Bar */
         "titleBar.activeBackground": "#313335",
         "titleBar.inactiveBackground": "#2c2c2c",
-        "titleBar.border": "#303030",
+        "titleBar.border": "#333333",
         /* Editor */
         "editor.foreground": "#A9B7C6",
         "editor.background": "#2B2B2B",
@@ -29,18 +29,20 @@
         "tab.unfocusedInactiveForeground": "#BBBBBB",
         "tab.inactiveBackground": "#3C3F41",
         /* Side Bar */
-        "sideBarSectionHeader.background": "#3B4754",
+        "sideBarSectionHeader.background": "#3C3F41",
+        "sideBarSectionHeader.border": "#4B4B4B",
         "sideBar.border": "#4B4B4B",
         "sideBar.foreground": "#a7a7a7",
         /* List */
         "list.dropBackground": "#474B4D",
         /* Panel */
         "panelTitle.activeBorder": "#4A7A88",
+        "panelTitle.activeForeground": "#d3d3d3",
         "panel.background": "#313335",
         "panel.dropBackground": "#2B2B2B",
         /* Terminal */
         "terminal.background": "#2B2B2B",
-        "terminal.foreground": "#ADADAD",
+        "terminal.foreground": "#BBBBBB",
         /* Activity Bar */
         "activityBar.border": "#4B4B4B",
         "activityBar.background": "#2D2F30",
@@ -59,6 +61,8 @@
         "input.foreground": "#BBBBBB",
         /* Dropdown */
         "dropdown.listBackground": "#646464",
+        "dropdown.foreground": "#BBBBBB",
+        "dropdown.border": "#515151",
         /* Widgets */
         "editorWidget.background": "#313335",
         "editorWidget.border": "#4B4B4B",
