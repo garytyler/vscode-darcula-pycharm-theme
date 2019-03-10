@@ -4,8 +4,8 @@
             /* Base Colors */
             "foreground": "#BBBBBB",
             /* Title Bar */
-            "titleBar.activeBackground": "#444444",
-            "titleBar.inactiveBackground": "#333333",
+            "titleBar.activeBackground": "#252526",
+            "titleBar.inactiveBackground": "#2E2E2E"
             "titleBar.border": "#303030",
             /* Editor */
             "editor.foreground": "#A9B7C6",
