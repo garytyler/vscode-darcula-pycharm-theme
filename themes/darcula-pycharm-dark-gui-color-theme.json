@@ -3,10 +3,7 @@
     "colors": {
             /* Base Colors */
             "foreground": "#BBBBBB",
-            /* Title Bar */
-            "titleBar.activeBackground": "#252526",
-            "titleBar.inactiveBackground": "#2E2E2E"
-            "titleBar.border": "#303030",
+
             /* Editor */
             "editor.foreground": "#A9B7C6",
             "editor.background": "#2B2B2B",
@@ -69,9 +66,6 @@
             "editorSuggestWidget.background": "#3C3F41",
             /* Settings */
             "settings.headerForeground": "#BBBBBB",
-            /* Status Bar */
-            "statusBar.background": "#313335",
-            "statusBar.border": "#4B4B4B",
             /* Resources */
             "gitDecoration.ignoredResourceForeground": "#3d3d3d"
     },

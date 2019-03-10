@@ -15,3 +15,7 @@
 ## [0.4.0]
 
 - Closer match on imported classes, keyward args, block comments, and add GUI themes
+
+## [0.5.0]
+
+- Add icon, Update title bar color

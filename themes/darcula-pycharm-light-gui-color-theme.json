@@ -3,10 +3,6 @@
     "colors": {
             /* Base Colors */
             "foreground": "#BBBBBB",
-            /* Title Bar */
-            "titleBar.activeBackground": "#444444",
-            "titleBar.inactiveBackground": "#333333",
-            "titleBar.border": "#303030",
             /* Editor */
             "editor.foreground": "#A9B7C6",
             "editor.background": "#2B2B2B",
@@ -71,8 +67,6 @@
             "editorSuggestWidget.background": "#3C3F41",
             /* Settings */
             "settings.headerForeground": "#BBBBBB",
-            /* Status Bar */
-            "statusBar.foreground": "#BBBBBB",
             /* Resources */
             "gitDecoration.ignoredResourceForeground": "#6d6d6d"
     },
