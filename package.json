@@ -2,7 +2,7 @@
     "name": "darcula-pycharm",
     "displayName": "Darcula Pycharm",
     "description": "A fork of danields761's Darcula 2.0 Python theme modified to match PyCharm colors",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": true,

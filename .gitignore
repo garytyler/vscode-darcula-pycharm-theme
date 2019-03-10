@@ -1,2 +1,8 @@
+# VSCode
+.vscode/
+.cache/
+tempCodeRunnerFile*
+
+# VSCode Marketplace
 node_modules
 *.vsix
