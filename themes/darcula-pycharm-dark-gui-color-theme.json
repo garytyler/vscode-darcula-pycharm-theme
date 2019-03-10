@@ -453,8 +453,7 @@
         {
             "scope": "variable.language.special",
             "settings": {
-                "foreground": "#94558D",
-                "fontStyle": "bold"
+                "foreground": "#94558D"
             }
         },
         {
