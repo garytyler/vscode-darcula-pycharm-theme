@@ -6,5 +6,5 @@ A fork of danields761's Darcula 2.0 IntelliJ-based Python-optimized theme, modif
 
 ## Includes 2 theme options
 
-- Darcula PyCharm with Light GUI (very similar to default Pycharm)
+- Darcula PyCharm with Light GUI (very similar to default PyCharm)
 - Darcula PyCharm with Dark GUI
