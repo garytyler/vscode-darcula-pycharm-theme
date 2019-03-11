@@ -4,7 +4,14 @@
 
 A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm.
 
-## Includes 2 theme options
+## Includes 4 themes total (2 syntax options, 2 GUI options)
 
-- Darcula PyCharm with Light GUI (very similar to default PyCharm)
-- Darcula PyCharm with Dark GUI
+### Syntax options
+
+- **Original** - Replicates default PyCharm
+- **Neutral** - Neutral foreground text, without blue tint
+
+### GUI options
+
+- **Light** - Replicates default PyCharm
+- **Dark** - Inspired by PyCharm

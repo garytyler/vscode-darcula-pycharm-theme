@@ -2,7 +2,7 @@
     "name": "darcula-pycharm",
     "displayName": "Darcula PyCharm",
     "description": "A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": true,
@@ -28,6 +28,16 @@
                 "label": "Darcula Pycharm with Light GUI",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darcula-pycharm-light-gui-color-theme.json"
+            },
+            {
+                "label": "Darcula Pycharm Neutral with Dark GUI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula-pycharm-neutral-dark-gui-color-theme.json"
+            },
+            {
+                "label": "Darcula Pycharm Neutral with Light GUI",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darcula-pycharm-neutral-light-gui-color-theme.json"
             }
         ]
     },
