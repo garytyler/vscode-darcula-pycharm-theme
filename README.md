@@ -8,7 +8,7 @@ A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to mat
 
 ### Syntax options
 
-- **Original** - Replicates default PyCharm
+- **Original** - Replicates default Darcula from PyCharm
 - **Neutral** - Neutral foreground text, without blue tint
 
 ### GUI options
