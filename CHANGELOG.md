@@ -32,3 +32,6 @@
 
 - Add neutral syntax options for neutral colored foreground text
 
+## [0.8.1]
+
+- Orange debug status bar, muted dark terminal background, brighter ignored resource on GUI
