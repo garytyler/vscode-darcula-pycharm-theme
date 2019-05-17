@@ -627,9 +627,103 @@
             }
         },
         {
-            "name": "Doc strings and block",
+            "name": "Commas",
             "scope": [
-                "string.quoted.docstring.multi.python"
+                "punctuation.separator.dictionary.pair", // commas
+                "punctuation.separator.element", // commas
+                "punctuation.separator.arguments", // commas
+                "punctuation.separator.parameters", // commas
+                "punctuation.separator.continuation", // commas
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "variable.parameter.function-call.python",
+            ],
+            "settings": {
+                "foreground": "#AA4926"
+            }
+        },
+        {
+            "scope": "source.python meta.function-call.python meta.function-call.arguments.python support.variable.magic.python",
+            "settings": {
+                "foreground": "#B200B2"
+            }
+        },
+        {
+            "name": "Python decorators",
+            "scope": [
+                "source.python meta.function.decorator.python support.type.python",
+                "source.python meta.function.decorator.python entity.name.function.decorator.python",
+                "source.python meta.function.decorator.python entity.name.function.decorator.python punctuation.definition.decorator.python"
+            ],
+            "settings": {
+                "foreground": "#BBB529"
+            }
+        },
+        {
+            "name": "Python support types",
+            "scope": [
+                "source.python support.type.python",
+                "source.python meta.function-call.python support.function.builtin.python",
+                "source.python meta.item-access.python meta.item-access.arguments.python support.type.python",
+            ],
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        },
+        {
+            "scope": [
+                "source.python constant.character.format.placeholder.other.python",
+                "source.python meta.function.python storage.type.function.python ",
+                "source.python meta.class.python storage.type.class.python",
+                "source.python keyword.control.flow.python",
+                "source.python keyword.control.import.python",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            },
+        },
+        {
+            "name": "Python binary strings",
+            "scope": [
+                "source.python string.quoted.binary.single.python",
+                "source.python string.quoted.binary.single.python punctuation.definition.string.begin.python",
+                "source.python string.quoted.binary.single.python punctuation.definition.string.end.python",
+                "source.python string.quoted.binary.single.python storage.type.string.python"
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Python block comments/multi-line strings",
+            "scope": [
+                "source.python string.quoted.single.python",
+                "source.python storage.type.string.python",
+                "source.python string.quoted.multi.python",
+                "source.python string.regexp.quoted.multi.python",
+                "source.python string.regexp.quoted.multi.python keyword.operator.quantifier.regexp",
+                "source.python string.regexp.quoted.single.python",
+                "source.python punctuation.definition.string.begin.python",
+                "source.python punctuation.definition.string.end.python",
+            ],
+            "settings": {
+                "foreground": "#6A8759",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "source.python string.quoted.docstring.multi.python",
+                "source.python string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                "source.python string.quoted.docstring.multi.python punctuation.definition.string.end.python"
             ],
             "settings": {
                 "foreground": "#629755",
@@ -637,24 +731,14 @@
             }
         },
         {
-            "name": "Strings",
+            "name": "Python line comments",
             "scope": [
-                "string.quoted"
+                "source.python comment.python",
+                "source.python comment.line.number-sign.python"
             ],
             "settings": {
-                "foreground": "#A5C261"
+                "foreground": "#808080"
             }
         },
-        {
-            "name": "Inherited classes, reserved language variables",
-            "scope": [
-                "support.type.python",
-                "entity.other.inherited-class.python",
-                "support.type.exception.python"
-            ],
-            "settings": {
-                "foreground": "#8888C6"
-            }
-        }
     ]
 }
