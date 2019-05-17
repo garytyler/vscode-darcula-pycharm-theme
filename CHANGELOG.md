@@ -35,3 +35,7 @@
 ## [0.8.1]
 
 - Orange debug status bar, muted dark terminal background, brighter ignored resource on GUI
+
+## [0.9.0]
+
+- Support for orange commas, Python3-style green highlighted strings, proper inheritance highlight for builtins, better support for python support types

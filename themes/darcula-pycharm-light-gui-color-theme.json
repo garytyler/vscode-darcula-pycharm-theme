@@ -171,13 +171,15 @@
         {
             "scope": "markup.bold",
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -201,7 +203,8 @@
         {
             "scope": "markup.changed",
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -268,7 +271,8 @@
         {
             "scope": "meta.class.inheritance",
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -304,7 +308,8 @@
                 "punctuation.definition.template-expression.end.js"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -337,7 +342,8 @@
                 "entity.name.type.module"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -356,7 +362,8 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -390,7 +397,8 @@
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -514,7 +522,8 @@
                 "storage.type.primitive.groovy"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -526,7 +535,8 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -535,7 +545,8 @@
                 "storage.type.function.arrow"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
@@ -566,7 +577,8 @@
                 "support.variable"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                // Let be declared by base color
+                // "foreground": "#A9B7C6"
             }
         },
         {
