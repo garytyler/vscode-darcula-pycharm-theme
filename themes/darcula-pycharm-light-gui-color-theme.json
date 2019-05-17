@@ -171,13 +171,13 @@
         {
             "scope": "markup.bold",
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -201,7 +201,7 @@
         {
             "scope": "markup.changed",
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -268,7 +268,7 @@
         {
             "scope": "meta.class.inheritance",
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -304,7 +304,7 @@
                 "punctuation.definition.template-expression.end.js"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -337,7 +337,7 @@
                 "entity.name.type.module"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -356,7 +356,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -390,7 +390,7 @@
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -514,7 +514,7 @@
                 "storage.type.primitive.groovy"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -526,7 +526,7 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -535,7 +535,7 @@
                 "storage.type.function.arrow"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -566,7 +566,7 @@
                 "support.variable"
             ],
             "settings": {
-                "foreground": "#A9B7C6"
+                "foreground": "#A9B7C6" // Base color
             }
         },
         {
@@ -740,5 +740,46 @@
                 "foreground": "#808080"
             }
         },
+        {
+            "name": "JSON strings",
+            "scope": [
+                "string.quoted.double.json"
+                // "string.quoted.json",
+            ],
+            "settings": {
+                "foreground": "#6A8759",
+            }
+        },
+        {
+            "name": "JSON punctuation",
+            "scope": [
+                "punctuation.separator.dictionary.key-value.json",
+                "punctuation.separator.array.json",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "name": "JSON comments",
+            "scope": [
+                "meta.structure.dictionary.value.json.comments",
+                "comment.block.json.comments",
+                "comment.block.documentation.json.comments"
+            ],
+            "settings": {
+                "foreground": "#808080"
+            }
+        },
+        {
+            "name": "Inherited classes, reserved language variables",
+            "scope": [
+                "meta.class.inheritance.python support.type.exception.python",
+                "meta.class.inheritance.python support.type.metaclass.python",
+            ],
+            "settings": {
+                "foreground": "#8888C6"
+            }
+        }
     ]
 }

@@ -1,49 +1,49 @@
 {
-    "name": "darcula-pycharm",
-    "displayName": "Darcula PyCharm",
-    "description": "A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm",
-    "version": "0.8.1",
-    "license": "MIT",
-    "publisher": "garytyler",
-    "preview": true,
-    "extensionDependencies": [
-        "magicstack.magicpython"
-    ],
-    "repository": "https://github.com/garytyler/darcula-pycharm",
-    "icon": "images/icon.png",
-    "engines": {
-        "vscode": "^1.21.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Darcula Pycharm with Dark GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-dark-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm with Light GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-light-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Dark GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-dark-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Light GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-light-gui-color-theme.json"
-            }
-        ]
-    },
-    "__metadata": {
-        "id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
-        "publisherDisplayName": "garytyler",
-        "publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779"
-    }
+	"name": "darcula-pycharm",
+	"displayName": "Darcula PyCharm",
+	"description": "A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm",
+	"version": "0.9.0",
+	"license": "MIT",
+	"publisher": "garytyler",
+	"preview": true,
+	"extensionDependencies": [
+		"magicstack.magicpython"
+	],
+	"repository": "https://github.com/garytyler/darcula-pycharm",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.21.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darcula Pycharm with Dark GUI",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-pycharm-dark-gui-color-theme.json"
+			},
+			{
+				"label": "Darcula Pycharm with Light GUI",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-pycharm-light-gui-color-theme.json"
+			},
+			{
+				"label": "Darcula Pycharm Neutral with Dark GUI",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-pycharm-neutral-dark-gui-color-theme.json"
+			},
+			{
+				"label": "Darcula Pycharm Neutral with Light GUI",
+				"uiTheme": "vs-dark",
+				"path": "./themes/darcula-pycharm-neutral-light-gui-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f4d7cb0b-ba14-42cd-aef4-cc006556fbb3",
+		"publisherDisplayName": "garytyler",
+		"publisherId": "d5a91575-5edb-4e0b-828d-3d1427131779"
+	}
 }
