@@ -246,12 +246,12 @@
                 "foreground": "#b5cea8"
             }
         },
-        {
-            "scope": "meta.structure.dictionary.key.python",
-            "settings": {
-                "foreground": "#9876AA"
-            }
-        },
+        // {
+        //     "scope": "meta.structure.dictionary.key.python",
+        //     "settings": {
+        //         "foreground": "#9876AA"
+        //     }
+        // },
         {
             "scope": "meta.diff.header",
             "settings": {
@@ -300,27 +300,27 @@
                 // "foreground": "#A9B7C6" // Base color
             }
         },
-        {
-            "scope": [
-                "support.type.vendored.property-name",
-                "support.type.property-name",
-                "variable.css",
-                "variable.scss",
-                "variable.other.less"
-            ],
-            "settings": {
-                "foreground": "#9876AA"
-            }
-        },
-        {
-            "scope": [
-                "variable.other.property",
-                "support.variable.property.dom"
-            ],
-            "settings": {
-                "foreground": "#9876AA"
-            }
-        },
+        // {
+        //     "scope": [
+        //         "support.type.vendored.property-name",
+        //         "support.type.property-name",
+        //         "variable.css",
+        //         "variable.scss",
+        //         "variable.other.less"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9876AA"
+        //     }
+        // },
+        // {
+        //     "scope": [
+        //         "variable.other.property",
+        //         "support.variable.property.dom"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9876AA"
+        //     }
+        // },
         {
             "scope": [
                 "variable.other.object",
@@ -665,6 +665,16 @@
             }
         },
         {
+            "name": "Python functions",
+            "scope": [
+                "entity.name.function.python"
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": [
                 "source.python constant.character.format.placeholder.other.python",
                 "source.python meta.function.python storage.type.function.python ",
@@ -752,7 +762,6 @@
         {
             "name": "JSON comments",
             "scope": [
-                "meta.structure.dictionary.value.json.comments",
                 "comment.block.json.comments",
                 "comment.block.documentation.json.comments"
             ],
