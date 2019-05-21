@@ -246,12 +246,6 @@
                 "foreground": "#b5cea8"
             }
         },
-        // {
-        //     "scope": "meta.structure.dictionary.key.python",
-        //     "settings": {
-        //         "foreground": "#9876AA"
-        //     }
-        // },
         {
             "scope": "meta.diff.header",
             "settings": {
@@ -737,6 +731,13 @@
             ],
             "settings": {
                 "foreground": "#808080"
+            }
+        },
+        {
+            "name": "JSON keys",
+            "scope": "meta.structure.dictionary.json support.type.property-name.json",
+            "settings": {
+                "foreground": "#9876AA"
             }
         },
         {
