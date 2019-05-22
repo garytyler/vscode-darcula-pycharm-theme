@@ -631,12 +631,6 @@
             }
         },
         {
-            "scope": "source.python meta.function-call.python meta.function-call.arguments.python support.variable.magic.python",
-            "settings": {
-                "foreground": "#B200B2"
-            }
-        },
-        {
             "name": "Python decorators",
             "scope": [
                 "source.python meta.function.decorator.python support.type.python",
@@ -773,6 +767,7 @@
         {
             "name": "Inherited classes, reserved language variables",
             "scope": [
+                "support.type.exception.python",
                 "meta.class.inheritance.python support.type.exception.python",
                 "meta.class.inheritance.python support.type.metaclass.python",
             ],
