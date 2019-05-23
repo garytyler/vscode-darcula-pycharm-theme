@@ -1,8 +1,11 @@
 {
     "type": "dark",
     "colors": {
+        "inputValidation.infoForeground": "#ff0000",
+        "inputValidation.errorForeground": "#ff0000",
+        "inputValidation.warningForeground": "#ff0000",
         /* Base Colors */
-        "foreground": "#BBBBBB",
+        //"foreground": "#BBBBBB",
         /* Title Bar */
         "titleBar.activeBackground": "#313335",
         "titleBar.inactiveBackground": "#2c2c2c",
@@ -512,19 +515,19 @@
                 // "foreground": "#A9B7C6" // Base color
             }
         },
-        {
-            "name": "Types declaration and references, TS grammar specific",
-            "scope": [
-                "meta.type.cast.expr",
-                "meta.type.new.expr",
-                "support.constant.math",
-                "support.constant.dom",
-                "support.constant.json"
-            ],
-            "settings": {
-                "foreground": "#4EC9B0"
-            }
-        },
+        // {
+        //     "name": "Types declaration and references, TS grammar specific",
+        //     "scope": [
+        //         "meta.type.cast.expr",
+        //         "meta.type.new.expr",
+        //         "support.constant.math",
+        //         "support.constant.dom",
+        //         "support.constant.json"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#4EC9B0"
+        //     }
+        // },
         {
             "name": "Control flow keywords",
             "scope": "keyword.control",
@@ -541,22 +544,6 @@
             ],
             "settings": {
                 // "foreground": "#A9B7C6" // Base color
-            }
-        },
-        // {
-        //     "scope": [
-        //         "variable"
-        //     ],
-        //     "settings": {
-        //         "foreground": "#9876AA" //"#8F5AAC"
-        //     }
-        // },
-        {
-            "scope": [
-                "entity.name.function",
-            ],
-            "settings": {
-                "foreground": "#9876AA" //"#8F5AAC"
             }
         },
         {
@@ -611,6 +598,8 @@
         {
             "name": "Commas",
             "scope": [
+                "punctuation.separator.comma.js",
+                "punctuation.terminator.statement.js",
                 "punctuation.separator.dictionary.pair", // commas
                 "punctuation.separator.element", // commas
                 "punctuation.separator.arguments", // commas
@@ -786,15 +775,6 @@
             }
         },
         {
-            "name": "Javascript functions",
-            "scope": [
-                "entity.name.function.js"
-            ],
-            "settings": {
-                "foreground": "#FFC66D"
-            }
-        },
-        {
             "scope": [
                 "punctuation.separator.key-value.html",
                 "string.quoted.double.html"
@@ -810,6 +790,58 @@
             ],
             "settings": {
                 "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Javascript functions",
+            "scope": [],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "scope": [
+                "meta.object-literal.key.js entity.name.function.js",
+                "meta.definition.function.js entity.name.function.js",
+            ],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "scope": [
+                "meta.function-call.js entity.name.function.js",
+                "meta.function.expression.js entity.name.function.js",
+                // "meta.object.member.js meta.function.expression.js meta.function-call.js entity.name.function.js",
+                // "meta.function.js meta.function-call.js entity.name.function.js",
+                // "meta.function.expression.js meta.function-call.js entity.name.function.js",
+                // "meta.object.member.js meta.function-call.js entity.name.function.js",
+            ],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.property.js",
+                // "meta.var.expr.js entity.name.function.js",
+                // "meta.function.expression.js meta.function-call.js entity.name.function.js",
+                // "meta.object.member.js meta.function.expression.js meta.function-call.js entity.name.function.js",
+                // "meta.object.member.js meta.function.js meta.function-call.js entity.name.function.js",
+                // "meta.function.js meta.function-call.js entity.name.function.js",
+                // "meta.function.expression.js meta.function-call.js entity.name.function",
+            ],
+            "settings": {
+                "foreground": "#9876AA" //"#8F5AAC"
+            }
+        },
+        {
+            "scope": [
+                "meta.object.member.js variable.other.property.js",
+                "variable.other.object.property.js",
+            ],
+            "settings": {
+                "foreground": "#9876AA" //"#8F5AAC"
             }
         },
         // { // Disabling might allow for adjusting base color with foreground value
@@ -828,6 +860,14 @@
         //     "scope": "entity.name.tag",
         //     "settings": {
         //         "foreground": "#FFC66D"
+        //     }
+        // },
+        // {
+        //     "scope": [
+        //         "variable"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9876AA" //"#8F5AAC"
         //     }
         // },
     ]
