@@ -332,15 +332,6 @@
         },
         {
             "scope": [
-                "entity.name.function.decorator",
-                "entity.name.function.decorator support.type.python"
-            ],
-            "settings": {
-                "foreground": "#BBB529"
-            }
-        },
-        {
-            "scope": [
                 "variable.other.readwrite",
                 "variable.parameter",
                 "variable.other.readwrite.alias"
@@ -623,9 +614,8 @@
         {
             "name": "Python decorators",
             "scope": [
-                "source.python meta.function.decorator.python support.type.python",
+                "source.python meta.function.decorator.python support.type.python", // Handle textmate bug involving class decorator args
                 "source.python meta.function.decorator.python entity.name.function.decorator.python",
-                "source.python meta.function.decorator.python entity.name.function.decorator.python punctuation.definition.decorator.python"
             ],
             "settings": {
                 "foreground": "#BBB529"
@@ -635,6 +625,7 @@
             "name": "Python support types",
             "scope": [
                 "source.python support.type.python",
+                "source.python meta.function-call.arguments.python support.type.python", // Handle textmate bug involving class decorator args
                 "source.python meta.function-call.python support.function.builtin.python",
                 "source.python meta.item-access.python meta.item-access.arguments.python support.type.python",
             ],
