@@ -478,8 +478,10 @@ HTML/XML
         },
         {
             "scope": [
-                "text.html string",
-                "text.html.derivative meta.attribute.style.html meta.embedded.line.css string.quoted.double.html source.css"
+                "text.html meta.tag punctuation",
+                "text.html meta.tag string.unquoted",
+                "text.html meta.tag string.quoted",
+                "text.html meta.attribute.style.html meta.embedded.line.css string.quoted.double.html source.css"
             ],
             "settings": {
                 "foreground": "#FFC66D",
