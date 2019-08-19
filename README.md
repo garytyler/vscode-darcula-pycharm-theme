@@ -2,16 +2,34 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm.
+Precise implementation of the Darcula PyCharm color scheme, optimized for Python.
 
-## Includes 4 themes total (2 syntax options, 2 GUI options)
+## Options
 
-### Syntax options
+ - **Light GUI** - Replicates default PyCharm's GUI
+ - **Dark GUI** - Inspired by PyCharm's GUI
 
-- **Original** - Replicates default Darcula from PyCharm
-- **Neutral** - Neutral foreground text, without blue tint
+## Customization
 
-### GUI options
+To change the base text color, use a snippet like this in your `settings.json`
 
-- **Light** - Replicates default PyCharm
-- **Dark** - Inspired by PyCharm
+```json
+{
+    "editor.tokenColorCustomizations": {
+        "[Darcula Pycharm with Dark GUI]": {
+            "textMateRules": [
+                {
+                    "name": "Foreground base syntax",
+                    "scope": [
+                        "text", // For markup
+                        "source", // For code
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000" // Bright red
+                    }
+                },
+            ]
+        },
+    }
+}
+```

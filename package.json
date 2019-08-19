@@ -28,16 +28,6 @@
                 "label": "Darcula Pycharm with Light GUI",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darcula-pycharm-light-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Dark GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-dark-gui-color-theme.json"
-            },
-            {
-                "label": "Darcula Pycharm Neutral with Light GUI",
-                "uiTheme": "vs-dark",
-                "path": "./themes/darcula-pycharm-neutral-light-gui-color-theme.json"
             }
         ]
     },

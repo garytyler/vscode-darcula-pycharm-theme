@@ -804,7 +804,7 @@ Javascript
                 "source.js punctuation.decorator",
             ],
             "settings": {
-                "foreground": "#BBB529"
+                "foreground": "#bb2929"
             }
         },
         {

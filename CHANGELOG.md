@@ -38,4 +38,4 @@
 
 ## [0.9.0]
 
-- Support for orange commas, Python3-style green highlighted strings, proper inheritance highlight for builtins, better support for python support types
+- Rewrite for superior python support and ability to set custom base color, DEPRECATE neutral themes, slim and improve dark and light GUI theme colors, update README with language support from rewrite
