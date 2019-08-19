@@ -4,9 +4,6 @@
         "inputValidation.infoForeground": "#ff0000",
         "inputValidation.errorForeground": "#ff0000",
         "inputValidation.warningForeground": "#ff0000",
-        /* Base Colors */
-        // "foreground": "#BBBBBB",
-        "foreground": "#A9B7C6",
         /* Title Bar */
         "titleBar.activeBackground": "#313335",
         "titleBar.inactiveBackground": "#2c2c2c",
@@ -186,14 +183,15 @@
         {
             "scope": [
                 "new.expr entity.name.type",
-                // "meta.function entity.name.type"
             ],
             "settings": {
                 "foreground": "#FFC66D"
             }
         },
         {
-            "scope": "storage",
+            "scope": [
+                "storage.type",
+            ],
             "settings": {
                 "foreground": "#CC7832"
             }
@@ -229,13 +227,6 @@
             ],
             "settings": {
                 "foreground": "#FFC66D",
-                "fontStyle": ""
-            }
-        },
-        {
-            "scope": "keyword.control",
-            "settings": {
-                "foreground": "#CC7832",
                 "fontStyle": ""
             }
         },
@@ -859,6 +850,34 @@ TOML
             ],
             "settings": {
                 "foreground": "#6A8759",
+            }
+        },
+        /*
+YAML
+*/
+        {
+            "scope": [
+                "source.yaml string.unquoted entity.name.tag",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "source.yaml entity.name",
+                "source.yaml variable.other",
+            ],
+            "settings": {
+                "foreground": "#E8BF6A",
+            }
+        },
+        {
+            "scope": [
+                "source.yaml comment.line",
+            ],
+            "settings": {
+                "foreground": "#629755",
             }
         },
         /*
