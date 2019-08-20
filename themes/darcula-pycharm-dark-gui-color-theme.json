@@ -1030,6 +1030,19 @@ Regular Expressions
             }
         },
         /*
+SQL
+*/        
+        {
+            "scope": [
+                "source.sql keyword.other",
+                "source.plsql keyword.other",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        /*
 git-rebase
 */
         {
