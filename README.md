@@ -6,7 +6,7 @@ Replica of Darcula PyCharm color scheme, optimized for Python
 
 * Dark and Light GUI options
 * RegEx highlighting
-* Jinja & Django Template support (See [Template Support](#jinja--django-template-language-support))
+* Jinja & Django Template support (See [Template Support](#template-support))
 * Overridable base highlight (See [Customization](#syntax-customization))
 * Support for many popular languages
 
@@ -21,7 +21,7 @@ Replica of Darcula PyCharm color scheme, optimized for Python
   </tr>
 </table>
 
-## Jinja & Django Template Language Support
+## Template Support
 
 Use one of these plugins:
 * [Jinja plugin](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja)
