@@ -2,16 +2,54 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-A fork of danields761's IntelliJ-based Darcula 2.0 Python theme, modified to match PyCharm.
+Replica of Darcula PyCharm color scheme, optimized for Python
 
-## Includes 4 themes total (2 syntax options, 2 GUI options)
+* Dark and Light GUI options
+* RegEx highlighting
+* Jinja & Django Template support (See [Template Support](#template-support))
+* Overridable base highlight (See [Customization](#syntax-customization))
+* Support for many popular languages
 
-### Syntax options
+ <table>
+  <tr>
+    <th>Light GUI</th>
+    <th>Dark GUI</th>
+  </tr>
+  <tr>
+    <td><img src="images/light.png"  /></td>
+    <td><img src="images/dark.png"  /> </td>
+  </tr>
+</table>
 
-- **Original** - Replicates default Darcula from PyCharm
-- **Neutral** - Neutral foreground text, without blue tint
+## Template Support
 
-### GUI options
+Use one of these plugins:
+* [Jinja plugin](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja)
+* [Better Jinja](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml)
+* [Django plugin](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
+* [Django Template plugin](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
 
-- **Light** - Replicates default PyCharm
-- **Dark** - Inspired by PyCharm
+## Syntax Customization 
+
+To change the base text color, use a snippet like this in your `settings.json`
+
+```json
+{
+    "editor.tokenColorCustomizations": {
+        "[Darcula Pycharm with Dark GUI]": {
+            "textMateRules": [
+                {
+                    "name": "Foreground base syntax",
+                    "scope": [
+                        "text", // For markup
+                        "source", // For code
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000" // Bright red
+                    }
+                },
+            ]
+        },
+    }
+}
+```
