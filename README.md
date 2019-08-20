@@ -16,7 +16,7 @@ Replica of Darcula PyCharm color scheme, optimized for Python
     <th>Dark GUI</th>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/garytyler/darcula-pycharm/master/images/dark.png"  /></td>
+    <td><img src="https://raw.githubusercontent.com/garytyler/darcula-pycharm/master/images/light.png"  /></td>
     <td><img src="https://raw.githubusercontent.com/garytyler/darcula-pycharm/master/images/dark.png"  /> </td>
   </tr>
 </table>

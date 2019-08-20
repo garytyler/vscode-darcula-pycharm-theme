@@ -47,3 +47,7 @@
 - Improved dark and light GUI themes
 - Regex highlighting
 - Django and Jinja template support
+
+## [0.9.1]
+
+- Fix README sample images
