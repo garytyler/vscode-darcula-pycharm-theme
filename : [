@@ -1,0 +1,130 @@
+[1mdiff --git a/themes/darcula-pycharm-dark-gui-color-theme.json b/themes/darcula-pycharm-dark-gui-color-theme.json[m
+[1mindex 20114bb..8a731fa 100644[m
+[1m--- a/themes/darcula-pycharm-dark-gui-color-theme.json[m
+[1m+++ b/themes/darcula-pycharm-dark-gui-color-theme.json[m
+[36m@@ -267,11 +267,10 @@[m [mResources[m
+                 "foreground": "#CC7832",[m
+                 "fontStyle": ""[m
+             }[m
+[31m-        },[m
+[32m+[m[32m        },[m[41m    [m
+         /*[m
+ Python[m
+ */        [m
+[31m-[m
+         {[m
+             "scope": [[m
+                 "source.python variable.parameter.function.language.special",[m
+[36m@@ -738,18 +737,18 @@[m [mJavascript[m
+                 "fontStyle": ""[m
+             }[m
+         },[m
+[31m-        // {[m
+[31m-        //     "scope": [[m
+[31m-        //         "source.js keyword.operator.new.js",[m
+[31m-        //         "source.js keyword.operator.expression.js",[m
+[31m-        //         "source.js keyword.operator.cast.js",[m
+[31m-        //         "source.js keyword.operator.sizeof.js",[m
+[31m-        //     ],[m
+[31m-        //     "settings": {[m
+[31m-        //         "foreground": "#CC7832",[m
+[31m-        //         "fontStyle": ""[m
+[31m-        //     }[m
+[31m-        // },[m
+[32m+[m[32m        {[m
+[32m+[m[32m            "scope": [[m
+[32m+[m[32m                "source.js keyword.operator.new.js",[m
+[32m+[m[32m                "source.js keyword.operator.expression.js",[m
+[32m+[m[32m                "source.js keyword.operator.cast.js",[m
+[32m+[m[32m                "source.js keyword.operator.sizeof.js",[m
+[32m+[m[32m            ],[m
+[32m+[m[32m            "settings": {[m
+[32m+[m[32m                "foreground": "#CC7832",[m
+[32m+[m[32m                "fontStyle": ""[m
+[32m+[m[32m            }[m
+[32m+[m[32m        },[m
+         {[m
+             "name": "Javascript commas",[m
+             "scope": [[m
+[36m@@ -933,11 +932,11 @@[m [mTypescript[m
+         {[m
+             "name": "Typescript function names",[m
+             "scope": [[m
+[31m-                "meta.function-call entity.name.function",[m
+[31m-                "meta.definition.method entity.name.function",[m
+[31m-                "meta.definition.function entity.name.function",[m
+[31m-                "meta.function entity.name.function",[m
+[31m-                "meta.definition.variable entity.name.function",[m
+[32m+[m[32m                "source.ts meta.function-call entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.method entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.function entity.name.function",[m
+[32m+[m[32m                "source.ts meta.function entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.variable entity.name.function",[m
+             ],[m
+             "settings": {[m
+                 "foreground": "#FFC66D",[m
+[1mdiff --git a/themes/darcula-pycharm-light-gui-color-theme.json b/themes/darcula-pycharm-light-gui-color-theme.json[m
+[1mindex c57851d..f5d569a 100644[m
+[1m--- a/themes/darcula-pycharm-light-gui-color-theme.json[m
+[1m+++ b/themes/darcula-pycharm-light-gui-color-theme.json[m
+[36m@@ -267,11 +267,10 @@[m [mResources[m
+                 "foreground": "#CC7832",[m
+                 "fontStyle": ""[m
+             }[m
+[31m-        },[m
+[32m+[m[32m        },[m[41m    [m
+         /*[m
+ Python[m
+ */        [m
+[31m-[m
+         {[m
+             "scope": [[m
+                 "source.python variable.parameter.function.language.special",[m
+[36m@@ -738,18 +737,18 @@[m [mJavascript[m
+                 "fontStyle": ""[m
+             }[m
+         },[m
+[31m-        // {[m
+[31m-        //     "scope": [[m
+[31m-        //         "source.js keyword.operator.new.js",[m
+[31m-        //         "source.js keyword.operator.expression.js",[m
+[31m-        //         "source.js keyword.operator.cast.js",[m
+[31m-        //         "source.js keyword.operator.sizeof.js",[m
+[31m-        //     ],[m
+[31m-        //     "settings": {[m
+[31m-        //         "foreground": "#CC7832",[m
+[31m-        //         "fontStyle": ""[m
+[31m-        //     }[m
+[31m-        // },[m
+[32m+[m[32m        {[m
+[32m+[m[32m            "scope": [[m
+[32m+[m[32m                "source.js keyword.operator.new.js",[m
+[32m+[m[32m                "source.js keyword.operator.expression.js",[m
+[32m+[m[32m                "source.js keyword.operator.cast.js",[m
+[32m+[m[32m                "source.js keyword.operator.sizeof.js",[m
+[32m+[m[32m            ],[m
+[32m+[m[32m            "settings": {[m
+[32m+[m[32m                "foreground": "#CC7832",[m
+[32m+[m[32m                "fontStyle": ""[m
+[32m+[m[32m            }[m
+[32m+[m[32m        },[m
+         {[m
+             "name": "Javascript commas",[m
+             "scope": [[m
+[36m@@ -933,11 +932,11 @@[m [mTypescript[m
+         {[m
+             "name": "Typescript function names",[m
+             "scope": [[m
+[31m-                "meta.function-call entity.name.function",[m
+[31m-                "meta.definition.method entity.name.function",[m
+[31m-                "meta.definition.function entity.name.function",[m
+[31m-                "meta.function entity.name.function",[m
+[31m-                "meta.definition.variable entity.name.function",[m
+[32m+[m[32m                "source.ts meta.function-call entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.method entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.function entity.name.function",[m
+[32m+[m[32m                "source.ts meta.function entity.name.function",[m
+[32m+[m[32m                "source.ts meta.definition.variable entity.name.function",[m
+             ],[m
+             "settings": {[m
+                 "foreground": "#FFC66D",[m
