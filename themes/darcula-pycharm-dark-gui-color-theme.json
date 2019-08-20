@@ -473,7 +473,7 @@ HTML
             }
         },
         /*
-Jinja2 Template
+Jinja Template ('Jinja' plugin, 'Better Jinja' plugin)
 */
         {
             "scope": [
@@ -487,6 +487,13 @@ Jinja2 Template
         {
             "scope": [
                 "text.html.jinja entity.other.jinja.delimiter.variable",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
                 "text.html.jinja entity.other.jinja.delimiter.tag",
             ],
             "settings": {
@@ -494,11 +501,39 @@ Jinja2 Template
             }
         },
         /*
-Django Template 
-NOTE: Django Templage language plugin is missing some HTML scopes. A few overrides are necessary here.
+Django Template ('Django Template' plugin)
 */
         {
-            // Override for missing scopes in Django Template language plugin
+            "scope": [
+                "text.html.django keyword.control",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.html.django entity.other.django.delimiter.variable",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "text.html.django entity.other.django.delimiter.tag",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        /*
+Django Template ('Django' Plugin)
+NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary here.
+*/
+        {
+            // Override for missing scopes in Django plugin
             "scope": [
                 "text.html.django meta.tag"
             ],
@@ -507,7 +542,7 @@ NOTE: Django Templage language plugin is missing some HTML scopes. A few overrid
             }
         },
         {
-            // Override for missing scopes in Django Template language plugin
+            // Override for missing scopes in Django plugin
             "scope": [
                 "text.html.django meta.tag entity.other.attribute-name"
             ],
@@ -529,6 +564,7 @@ NOTE: Django Templage language plugin is missing some HTML scopes. A few overrid
             "scope": [
 
                 "text.html.django storage.type.templatetag keyword.operator.django",
+                
                 "text.html.django storage.type.templatetag keyword.control.tag-name",
                 "text.html.django storage.type.customtemplatetag constant.other.tag.name"
             ],

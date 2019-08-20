@@ -2,17 +2,18 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-Replica of Darcula PyCharm color scheme, optimized for Python.
+Replica of Darcula PyCharm color scheme, optimized for Python
 
-- Dark and Light GUI options
-- MagicPython RegEx highlighting
-- Overridable base highlight (See [Customization](#customization))
-- Supports popular languages (Javascript, HTML, CSS, & more) 
+* Dark and Light GUI options
+* RegEx highlighting
+* Jinja & Django Template support (See [Template Support](#jinja--django-template-language-support))
+* Overridable base highlight (See [Customization](#syntax-customization))
+* Support for many popular languages
 
  <table>
   <tr>
-    <th>Light</th>
-    <th>Dark</th>
+    <th>Light GUI</th>
+    <th>Dark GUI</th>
   </tr>
   <tr>
     <td><img src="images/light.png"  /></td>
@@ -20,7 +21,15 @@ Replica of Darcula PyCharm color scheme, optimized for Python.
   </tr>
 </table>
 
-## Customization 
+## Jinja & Django Template Language Support
+
+Use one of these plugins:
+* [Jinja plugin](https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja)
+* [Better Jinja](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml)
+* [Django plugin](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
+* [Django Template plugin](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
+
+## Syntax Customization 
 
 To change the base text color, use a snippet like this in your `settings.json`
 
