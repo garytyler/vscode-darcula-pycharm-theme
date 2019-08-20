@@ -390,15 +390,13 @@ Python
             }
         },
         /*
-HTML/XML
+XML
 */
         {
-            "name": "brackets of HTML/XML tags",
+            "name": "brackets of XML tags",
             "scope": [
-                "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html",
-                "punctuation.definition.tag.xml",
-                "text.xml keyword.other"
+                "text.xml punctuation.definition.tag",
+                "text.xml keyword.other",
             ],
             "settings": {
                 "foreground": "#FFC66D"
@@ -406,8 +404,7 @@ HTML/XML
         },
         {
             "scope": [
-                "entity.name.tag.html",
-                "entity.name.tag.localname.xml"
+                "text.xml entity.name.tag.localname"
             ],
             "settings": {
                 "foreground": "#FFC66D"
@@ -415,31 +412,11 @@ HTML/XML
         },
         {
             "scope": [
-                "entity.name.tag.namespace.xml",
-                "entity.other.attribute-name.namespace.xml"
+                "text.xml entity.name.tag.namespace",
+                "text.xml entity.other.attribute-name.namespace"
             ],
             "settings": {
                 "foreground": "#9876AA"
-            }
-        },
-        {
-            "scope": [
-                "text.html meta.tag punctuation",
-                "text.html meta.tag string.unquoted",
-                "text.html meta.tag string.quoted",
-                "text.html meta.attribute.style.html meta.embedded.line.css string.quoted.double.html source.css"
-            ],
-            "settings": {
-                "foreground": "#FFC66D",
-            }
-        },
-        {
-            "scope": [
-                "text constant"
-            ],
-            "settings": {
-                "foreground": "#6D9CBE",
-                "fontStyle": ""
             }
         },
         {
@@ -448,6 +425,117 @@ HTML/XML
             ],
             "settings": {
                 "foreground": "#6A8759"
+            }
+        },
+        /*
+HTML
+*/
+        {
+            "name": "brackets of HTML/XML tags",
+            "scope": [
+                "text.html punctuation.definition.tag.begin",
+                "text.html punctuation.definition.tag.end",
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+                "fontStyle": "bold",
+            }
+        },
+        {
+            "scope": [
+                "text.html meta.tag entity.name.tag",
+                "text.html entity.name.tag.inline.any", 
+                "text.html entity.name.tag.block.any", 
+                         
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+                "fontStyle": "bold",
+            }
+        },
+        {
+            "scope": [
+                "text.html meta.tag punctuation",
+                "text.html meta.tag string.unquoted",
+                "text.html meta.tag string.quoted",
+                "text.html meta.attribute.style.html meta.embedded.line.css source.css"
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+            }
+        },
+        {
+            "scope": [
+                "text.html constant"
+            ],
+            "settings": {
+                "foreground": "#6D9CBE",
+            }
+        },
+        /*
+Jinja2 Template
+*/
+        {
+            "scope": [
+                "text.html.jinja keyword.control",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.html.jinja entity.other.jinja.delimiter.variable",
+                "text.html.jinja entity.other.jinja.delimiter.tag",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        /*
+Django Template 
+NOTE: Django Templage language plugin is missing some HTML scopes. A few overrides are necessary here.
+*/
+        {
+            // Override for missing scopes in Django Template language plugin
+            "scope": [
+                "text.html.django meta.tag"
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+            }
+        },
+        {
+            // Override for missing scopes in Django Template language plugin
+            "scope": [
+                "text.html.django meta.tag entity.other.attribute-name"
+            ],
+            "settings": {
+
+                "foreground": "#BABABA",
+
+            }
+        },
+        {
+            "scope": [
+                "entity.tag.tagbraces"
+            ],
+            "settings": {
+                "foreground": "#CC7832"
+            }
+        },
+        {
+            "scope": [
+
+                "text.html.django storage.type.templatetag keyword.operator.django",
+                "text.html.django storage.type.templatetag keyword.control.tag-name",
+                "text.html.django storage.type.customtemplatetag constant.other.tag.name"
+            ],
+            "settings": {
+
+                "foreground": "#CC7832",
+                "fontStyle": "bold"
             }
         },
         /*
@@ -477,7 +565,8 @@ CSS
                 "punctuation.separator.list.comma.css"
             ],
             "settings": {
-                "foreground": "#CC7832"
+                "foreground": "#B87800"
+                // "foreground": "#CC7832"
             }
         },
         {
@@ -818,6 +907,14 @@ INI
                 "foreground": "#CC7832"
             }
         },
+        {
+            "scope": [
+                "source.ini keyword"
+            ],
+            "settings": {
+                "foreground": "#9876AA"
+            }
+        },
         /*
 TOML
 */
@@ -977,7 +1074,7 @@ Errors
             }
         },
 /*
-Regular Expressions        
+Regular Expressions      
 */
         {
             "scope": [
@@ -1036,6 +1133,18 @@ SQL
             "scope": [
                 "source.sql keyword.other",
                 "source.plsql keyword.other",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        /*
+Dockerfile
+*/        
+        {
+            "scope": [
+                "source.dockerfile keyword.other.special-method",
             ],
             "settings": {
                 "foreground": "#CC7832",
