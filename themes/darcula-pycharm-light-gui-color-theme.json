@@ -186,12 +186,6 @@ Resources
             }
         },
         {
-            "scope": "constant",
-            "settings": {
-                "foreground": "#6897BB",
-            }
-        },
-        {
             "scope": "constant.numeric",
             "settings": {
                 "foreground": "#6897BB",
@@ -316,6 +310,60 @@ Errors
             }
         },
         /*
+Regular Expressions        
+*/
+        {
+            "scope": [
+                "string.regexp",
+                "string.regexp constant.character",
+                "string.regexp storage.type.string",
+                "string.regexp punctuation.definition.string.begin",
+                "string.regexp punctuation.definition.string.end",
+            ],
+            "settings": {
+                "foreground": "#d16969",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "string.regexp entity.name.tag",
+            ],
+            "settings": {
+                "foreground": "#F23B7A",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "string.regexp support.other.parenthesis",
+                "string.regexp punctuation.character.set"
+            ],
+            "settings": {
+                "foreground": "#E8BF6A",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+
+                "string.regexp keyword.operator",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "string.regexp keyword.operator.quantifier",
+            ],
+            "settings": {
+                "foreground": "#6897BB",
+                "fontStyle": ""
+            }
+        },
+        /*
 Python
 */
         {
@@ -343,6 +391,7 @@ Python
                 "source.python meta.class storage.type.class",
                 "source.python keyword.control.flow",
                 "source.python keyword.control.import",
+                "source.python storage.type.format"
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -359,34 +408,28 @@ Python
             }
         },
         {
-            "scope": [
-                "source.python string.quoted.docstring.multi",
-                "source.python string.quoted.docstring.multi punctuation.definition.string.begin",
-                "source.python string.quoted.docstring.multi punctuation.definition.string.end"
-            ],
-            "settings": {
-                "foreground": "#629755",
-                "fontStyle": "italic"
-            }
-        },
-        {
             "name": "Python block comments/multi-line strings",
             "scope": [
-                "source.python string.quoted.docstring.single",
-                "source.python string.quoted.single",
-                "source.python storage.type.string",
-                "source.python string.quoted.multi",
-                "source.python string.regexp.quoted.multi",
-                "source.python string.regexp.quoted.multi keyword.operator.quantifier.regexp",
-                "source.python string.regexp.quoted.single",
-                "source.python punctuation.definition.string.begin",
-                "source.python punctuation.definition.string.end",
+                "source.python string.quoted"
             ],
             "settings": {
                 "foreground": "#6A8759",
                 "fontStyle": ""
             }
         },
+        {
+            "scope": [
+                "source.python string.quoted.docstring",
+                "source.python string.quoted.docstring punctuation.definition.string.begin",
+                "source.python string.quoted.docstring punctuation.definition.string.end"
+                
+            ],
+            "settings": {
+                "foreground": "#629755",
+                "fontStyle": "italic"
+            }
+        },
+
         {
             "name": "Python decorators",
             "scope": [
@@ -478,8 +521,10 @@ HTML/XML
         },
         {
             "scope": [
-                "text.html string",
-                "text.html.derivative meta.attribute.style.html meta.embedded.line.css string.quoted.double.html source.css"
+                "text.html meta.tag punctuation",
+                "text.html meta.tag string.unquoted",
+                "text.html meta.tag string.quoted",
+                "text.html meta.attribute.style.html meta.embedded.line.css string.quoted.double.html source.css"
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -505,6 +550,12 @@ HTML/XML
         /*
 CSS
 */
+        {
+            "scope": "source.css constant",
+            "settings": {
+                "foreground": "#6897BB",
+            }
+        },
         {
             "scope": [
                 "support.type.property-name.css"
@@ -572,6 +623,15 @@ LESS
             "scope": [
                 "source.css.less entity.other.attribute-name.class.mixin.css",
                 "source.css.less constant.other.unicode-range.css"
+            ],
+            "settings": {
+                "foreground": "#A5C261"
+            }
+        },
+        {
+            "scope": [
+                "source.css.less meta.property-list.css meta.property-value.css entity.name.tag.css",
+                "source.css.less meta.property-list.css meta.property-value.css constant.numeric.css"
             ],
             "settings": {
                 "foreground": "#A5C261"
@@ -804,7 +864,7 @@ Javascript
                 "source.js punctuation.decorator",
             ],
             "settings": {
-                "foreground": "#bb2929"
+                "foreground": "#BBB529"
             }
         },
         {
