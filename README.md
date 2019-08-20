@@ -2,14 +2,25 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-Precise implementation of the Darcula PyCharm color scheme, optimized for Python.
+Replica of Darcula PyCharm color scheme, optimized for Python.
 
-## Options
+- Dark and Light GUI options
+- MagicPython RegEx highlighting
+- Overridable base highlight (See [Customization](#customization))
+- Supports popular languages (Javascript, HTML, CSS, & more) 
 
- - **Light GUI** - Replicates default PyCharm's GUI
- - **Dark GUI** - Inspired by PyCharm's GUI
+ <table>
+  <tr>
+    <th>Light</th>
+    <th>Dark</th>
+  </tr>
+  <tr>
+    <td><img src="images/light.png"  /></td>
+    <td><img src="images/dark.png"  /> </td>
+  </tr>
+</table>
 
-## Customization
+## Customization 
 
 To change the base text color, use a snippet like this in your `settings.json`
 

@@ -39,3 +39,7 @@
 ## [0.9.0]
 
 - Rewrite for superior python support and ability to set custom base color, DEPRECATE neutral themes, slim and improve dark and light GUI theme colors, update README with language support from rewrite
+
+## [0.9.1]
+
+- Add MagicPython regex highlighting, fix small CSS syntax bug, revise README, add GUI images to README
