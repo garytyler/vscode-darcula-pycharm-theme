@@ -2,7 +2,7 @@
     "name": "darcula-pycharm-theme",
     "displayName": "Darcula PyCharm Theme",
     "description": "Replica of PyCharm's 'Darcula' syntax theme, optimized for Python",
-    "version": "0.9.3",
+    "version": "0.9.4",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": false,

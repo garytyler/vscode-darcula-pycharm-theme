@@ -1158,6 +1158,26 @@ Regular Expressions
             }
         },
         /*
+DotEnv
+*/
+        {
+            "scope": [
+                "source.env string.quoted constant.character.escape"
+            ],
+            "settings": {
+                "foreground": "#6a8759",
+            }
+        },
+        {
+            "scope": [
+                "source.env string.quoted string.interpolated",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        /*
 SQL
 */
         {

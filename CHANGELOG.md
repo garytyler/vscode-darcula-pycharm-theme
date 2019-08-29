@@ -56,3 +56,7 @@
 
 - Fix highlighting for python constants
 - Update display name and description
+
+## [0.9.4]
+
+- Support for DotEnv syntax
