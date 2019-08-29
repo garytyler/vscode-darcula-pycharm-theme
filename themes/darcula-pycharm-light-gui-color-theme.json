@@ -1,14 +1,14 @@
 {
     "type": "dark",
     "colors": {
-        /* 
-Title Bar 
+        /*
+Title Bar
 */
         "titleBar.activeBackground": "#3C3F41",
-        "titleBar.inactiveBackground": "#313335", 
+        "titleBar.inactiveBackground": "#313335",
         "titleBar.border": "#303030",
-        /* 
-Editor 
+        /*
+Editor
 */
         "editor.background": "#2B2B2B",
         "editor.lineHighlightBackground": "#323232",
@@ -19,13 +19,13 @@ Editor
         "editorRuler.foreground": "#464646",
         "editorGutter.background": "#313335",
         "editorGroup.border": "#505050",
-        "editorGroupHeader.tabsBorder":"#505050",
-        "editorGroupHeader.tabsBackground":"#3C3F41", // diff
+        "editorGroupHeader.tabsBorder": "#505050",
+        "editorGroupHeader.tabsBackground": "#3C3F41", // diff
         "editorCodeLens.foreground": "#565c63",
         "editorIndentGuide.background": "#373737",
         "editorIndentGuide.activeBackground": "#555555",
-        /* 
-Tab 
+        /*
+Tab
 */
         "tab.border": "#323232", // diff
         "tab.hoverBackground": "#27292A", // diff
@@ -36,45 +36,45 @@ Tab
         "tab.unfocusedActiveForeground": "#BBBBBB",
         "tab.unfocusedInactiveForeground": "#BBBBBB",
         "tab.inactiveBackground": "#3C3F41",
-        /* 
-    Breadcrumbs 
+        /*
+    Breadcrumbs
 */
         "breadcrumb.background": "#313335",
-        /* 
-Side Bar 
+        /*
+Side Bar
 */
         "sideBarSectionHeader.background": "#3B4754", // diff
         "sideBarSectionHeader.border": "#323232", // diff
         "sideBar.border": "#323232", // diff
         "sideBar.foreground": "#BBBBBB", // diff
         "sideBar.background": "#3C3F41", // diff
-        /* 
-List 
+        /*
+List
 */
         "list.dropBackground": "#474B4D",
-        /* 
-Panel 
+        /*
+Panel
 */
         "panel.border": "#323232", // diff
-        "panelTitle.activeBorder": "#4A7A88", 
+        "panelTitle.activeBorder": "#4A7A88",
         "panelTitle.activeForeground": "#D3D3D3",
         "panel.background": "#3C3F41", // diff
         "panel.dropBackground": "#2B2B2B",
-        /* 
-Activity Bar 
+        /*
+Activity Bar
 */
         "activityBar.border": "#323232", // diff
         "activityBar.background": "#3C3F41",
         "activityBar.foreground": "#f0f0f0", // diff
-        /* 
-Terminal 
+        /*
+Terminal
 */
         "terminal.background": "#252526", // "#2B2B2B",
         "terminal.foreground": "#BBBBBB",
-        /* 
-Status Bar 
-*/      
-        // Foreground 
+        /*
+Status Bar
+*/
+        // Foreground
         "statusBar.foreground": "#BBBBBB",
         "statusBar.noFolderForeground": "#BBBBBB",
         "statusBar.debuggingForeground": "#cccccc",
@@ -85,42 +85,42 @@ Status Bar
         "statusBar.border": "#464646",
         "statusBar.noFolderBorder": "#464646",
         "statusBar.debuggingBorder": "#464646",
-        /* 
-Menu 
+        /*
+Menu
 */
         "menu.foreground": "#ADADAD",
         "menu.border": "#505050",
         "menu.background": "#3C3F41",
-        /* 
-List 
+        /*
+List
 */
         "list.hoverBackground": "#313335",
         "list.inactiveSelectionBackground": "#0D293E",
         "list.activeSelectionForeground": "#ADADAD",
-        /* 
-Input 
+        /*
+Input
 */
         "input.border": "#646464",
         "input.background": "#45494A",
         "input.foreground": "#BBBBBB",
-        /* 
-Dropdown 
+        /*
+Dropdown
 */
         "dropdown.listBackground": "#646464",
         "dropdown.foreground": "#BBBBBB",
         "dropdown.border": "#646464",
-        /* 
-Widgets 
+        /*
+Widgets
 */
         "editorWidget.background": "#313335",
         "editorWidget.border": "#464646",
         "editorSuggestWidget.background": "#3C3F41",
-        /* 
-Settings 
+        /*
+Settings
 */
         "settings.headerForeground": "#BBBBBB",
-        /* 
-Resources 
+        /*
+Resources
 */
         "gitDecoration.ignoredResourceForeground": "#6d6d6d",
     },
@@ -267,10 +267,10 @@ Resources
                 "foreground": "#CC7832",
                 "fontStyle": ""
             }
-        },    
+        },
         /*
 Python
-*/        
+*/
         {
             "scope": [
                 "source.python variable.parameter.function.language.special",
@@ -290,6 +290,7 @@ Python
         },
         {
             "scope": [
+                "source.python constant.language",
                 "source.python keyword.operator.logical",
                 "source.python constant.character.format.placeholder.other",
                 "source.python meta.function storage.type.function ",
@@ -444,9 +445,8 @@ HTML
         {
             "scope": [
                 "text.html meta.tag entity.name.tag",
-                "text.html entity.name.tag.inline.any", 
-                "text.html entity.name.tag.block.any", 
-                         
+                "text.html entity.name.tag.inline.any",
+                "text.html entity.name.tag.block.any",
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -547,9 +547,7 @@ NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary h
                 "text.html.django meta.tag entity.other.attribute-name"
             ],
             "settings": {
-
                 "foreground": "#BABABA",
-
             }
         },
         {
@@ -562,14 +560,11 @@ NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary h
         },
         {
             "scope": [
-
                 "text.html.django storage.type.templatetag keyword.operator.django",
-                
                 "text.html.django storage.type.templatetag keyword.control.tag-name",
                 "text.html.django storage.type.customtemplatetag constant.other.tag.name"
             ],
             "settings": {
-
                 "foreground": "#CC7832",
                 "fontStyle": "bold"
             }
@@ -1109,8 +1104,8 @@ Errors
                 "foreground": "#b267e6"
             }
         },
-/*
-Regular Expressions      
+        /*
+Regular Expressions
 */
         {
             "scope": [
@@ -1164,7 +1159,7 @@ Regular Expressions
         },
         /*
 SQL
-*/        
+*/
         {
             "scope": [
                 "source.sql keyword.other",
@@ -1177,7 +1172,7 @@ SQL
         },
         /*
 Dockerfile
-*/        
+*/
         {
             "scope": [
                 "source.dockerfile keyword.other.special-method",

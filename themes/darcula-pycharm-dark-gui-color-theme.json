@@ -2,7 +2,7 @@
     "type": "dark",
     "colors": {
         /*
-TitleBar 
+TitleBar
 */
         "titleBar.activeBackground": "#313335",
         "titleBar.inactiveBackground": "#27292A",
@@ -41,7 +41,7 @@ Breadcrumbs
 */
         "breadcrumb.background": "#313335",
         /*
-SideBar 
+SideBar
 */
         "sideBarSectionHeader.background": "#3C3F41", // diff
         "sideBarSectionHeader.border": "#505050", // diff
@@ -60,8 +60,8 @@ Panel
         "panelTitle.activeForeground": "#D3D3D3",
         "panel.background": "#313335", // diff
         "panel.dropBackground": "#2B2B2B",
-        /*    
-Activity Bar 
+        /*
+Activity Bar
 */
         "activityBar.border": "#464646", // diff
         "activityBar.background": "#313335",
@@ -74,7 +74,7 @@ Terminal
         /*
 Status Bar
 */
-        // Foreground 
+        // Foreground
         "statusBar.foreground": "#BBBBBB",
         "statusBar.noFolderForeground": "#BBBBBB",
         "statusBar.debuggingForeground": "#cccccc",
@@ -119,7 +119,7 @@ Widgets
 Settings
 */
         "settings.headerForeground": "#BBBBBB",
-        /* 
+        /*
 Resources
 */
         "gitDecoration.ignoredResourceForeground": "#505050"
@@ -267,10 +267,10 @@ Resources
                 "foreground": "#CC7832",
                 "fontStyle": ""
             }
-        },    
+        },
         /*
 Python
-*/        
+*/
         {
             "scope": [
                 "source.python variable.parameter.function.language.special",
@@ -290,6 +290,7 @@ Python
         },
         {
             "scope": [
+                "source.python constant.language",
                 "source.python keyword.operator.logical",
                 "source.python constant.character.format.placeholder.other",
                 "source.python meta.function storage.type.function ",
@@ -444,9 +445,8 @@ HTML
         {
             "scope": [
                 "text.html meta.tag entity.name.tag",
-                "text.html entity.name.tag.inline.any", 
-                "text.html entity.name.tag.block.any", 
-                         
+                "text.html entity.name.tag.inline.any",
+                "text.html entity.name.tag.block.any",
             ],
             "settings": {
                 "foreground": "#FFC66D",
@@ -547,9 +547,7 @@ NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary h
                 "text.html.django meta.tag entity.other.attribute-name"
             ],
             "settings": {
-
                 "foreground": "#BABABA",
-
             }
         },
         {
@@ -562,14 +560,11 @@ NOTE: Django plugin is missing some HTML scopes. A few overrides are necessary h
         },
         {
             "scope": [
-
                 "text.html.django storage.type.templatetag keyword.operator.django",
-                
                 "text.html.django storage.type.templatetag keyword.control.tag-name",
                 "text.html.django storage.type.customtemplatetag constant.other.tag.name"
             ],
             "settings": {
-
                 "foreground": "#CC7832",
                 "fontStyle": "bold"
             }
@@ -1109,8 +1104,8 @@ Errors
                 "foreground": "#b267e6"
             }
         },
-/*
-Regular Expressions      
+        /*
+Regular Expressions
 */
         {
             "scope": [
@@ -1164,7 +1159,7 @@ Regular Expressions
         },
         /*
 SQL
-*/        
+*/
         {
             "scope": [
                 "source.sql keyword.other",
@@ -1177,7 +1172,7 @@ SQL
         },
         /*
 Dockerfile
-*/        
+*/
         {
             "scope": [
                 "source.dockerfile keyword.other.special-method",
