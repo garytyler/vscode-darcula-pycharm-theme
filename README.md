@@ -1,8 +1,8 @@
-# Darcula PyCharm
+# Darcula PyCharm Theme
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-Replica of Darcula PyCharm color scheme, optimized for Python
+Replica of PyCharm's 'Darcula' color theme, optimized for Python
 
 * Dark and Light GUI options
 * RegEx highlighting
@@ -29,7 +29,7 @@ Use one of these plugins:
 * [Django plugin](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
 * [Django Template plugin](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
 
-## Syntax Customization 
+## Syntax Customization
 
 To change the base text color, use a snippet like this in your `settings.json`
 
