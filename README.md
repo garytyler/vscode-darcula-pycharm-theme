@@ -2,7 +2,7 @@
 
 ![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
 
-Replica of PyCharm's 'Darcula' color theme, optimized for Python
+Replica of PyCharm's 'Darcula' syntax theme, optimized for Python
 
 * Dark and Light GUI options
 * RegEx highlighting

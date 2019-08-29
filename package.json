@@ -1,7 +1,7 @@
 {
-    "name": "darcula-pycharm",
+    "name": "darcula-pycharm-theme",
     "displayName": "Darcula PyCharm Theme",
-    "description": "Replica of PyCharm's 'Darcula' color theme, optimized for Python",
+    "description": "Replica of PyCharm's 'Darcula' syntax theme, optimized for Python",
     "version": "0.9.3",
     "license": "MIT",
     "publisher": "garytyler",
@@ -9,7 +9,7 @@
     "extensionDependencies": [
         "magicstack.magicpython"
     ],
-    "repository": "https://github.com/garytyler/darcula-pycharm",
+    "repository": "https://github.com/garytyler/darcula-pycharm-theme",
     "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.21.0"
