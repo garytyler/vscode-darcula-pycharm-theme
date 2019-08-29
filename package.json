@@ -10,7 +10,7 @@
         "magicstack.magicpython"
     ],
     "repository": "https://github.com/garytyler/darcula-pycharm",
-    "icon": "https://raw.githubusercontent.com/malvery/vscode-darcula-pycharm-theme/master/images/icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.21.0"
     },
