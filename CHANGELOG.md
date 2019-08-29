@@ -43,7 +43,7 @@
 ## [0.9.1]
 
 - Rewrite for superior python support
-- Support for customizing base highlight color, DEPRECATE neutral themes because redudant 
+- Support for customizing base highlight color, DEPRECATE neutral themes because redudant
 - Improved dark and light GUI themes
 - Regex highlighting
 - Django and Jinja template support
@@ -51,3 +51,8 @@
 ## [0.9.1]
 
 - Fix README sample images
+
+## [0.9.3]
+
+- Fix highlighting for python constants
+- Update display name and description

@@ -5,7 +5,7 @@
     "version": "0.9.3",
     "license": "MIT",
     "publisher": "garytyler",
-    "preview": true,
+    "preview": false,
     "extensionDependencies": [
         "magicstack.magicpython"
     ],
@@ -16,6 +16,13 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "darcula",
+        "pycharm",
+        "IntelliJ",
+        "django",
+        "python"
     ],
     "contributes": {
         "themes": [
