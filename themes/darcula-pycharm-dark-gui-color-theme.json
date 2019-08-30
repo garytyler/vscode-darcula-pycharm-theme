@@ -76,11 +76,11 @@ Status Bar
 */
         // Foreground
         "statusBar.foreground": "#BBBBBB",
-        "statusBar.noFolderForeground": "#BBBBBB",
         "statusBar.debuggingForeground": "#cccccc",
         // Background
         "statusBar.background": "#313335",
         "statusBar.debuggingBackground": "#864d30",
+        "statusBar.noFolderBackground": "#313335",
         // Border
         "statusBar.border": "#4B4B4B",
         "statusBar.noFolderBorder": "#4B4B4B",

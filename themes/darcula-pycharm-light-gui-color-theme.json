@@ -81,6 +81,7 @@ Status Bar
         // Background
         "statusBar.background": "#3C3F41",
         "statusBar.debuggingBackground": "#864d30",
+        "statusBar.noFolderBackground": "#3C3F41",
         // Border
         "statusBar.border": "#464646",
         "statusBar.noFolderBorder": "#464646",
