@@ -1,15 +1,15 @@
 {
     "name": "darcula-pycharm",
     "displayName": "Darcula PyCharm Theme",
-    "description": "Replica of PyCharm's 'Darcula' syntax theme, optimized for Python",
-    "version": "0.9.4",
+    "description": "PyCharm's Darcula syntax theme ported with care to VS Code",
+    "version": "0.9.5",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": false,
     "extensionDependencies": [
         "magicstack.magicpython"
     ],
-    "repository": "https://github.com/garytyler/darcula-pycharm-theme",
+    "repository": "https://github.com/garytyler/vscode-darcula-pycharm-theme",
     "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.21.0"

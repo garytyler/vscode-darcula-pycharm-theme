@@ -60,3 +60,7 @@
 ## [0.9.4]
 
 - Support for DotEnv syntax
+-
+## [0.9.5]
+
+- Improved description and README
