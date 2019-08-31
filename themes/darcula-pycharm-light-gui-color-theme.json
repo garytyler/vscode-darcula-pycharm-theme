@@ -433,14 +433,22 @@ XML
 HTML
 */
         {
-            "name": "brackets of HTML/XML tags",
+            "name": "HTML script block closing tag brackets",
+            "scope": [
+                "text.html meta.tag.metadata.script.end punctuation.definition.tag.begin source.js"
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+            }
+        },
+        {
+            "name": "HTML tag brackets",
             "scope": [
                 "text.html punctuation.definition.tag.begin",
                 "text.html punctuation.definition.tag.end",
             ],
             "settings": {
                 "foreground": "#FFC66D",
-                "fontStyle": "bold",
             }
         },
         {
@@ -451,7 +459,6 @@ HTML
             ],
             "settings": {
                 "foreground": "#FFC66D",
-                "fontStyle": "bold",
             }
         },
         {
