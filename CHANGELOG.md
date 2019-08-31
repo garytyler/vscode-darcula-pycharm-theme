@@ -70,3 +70,7 @@
 - Fix HTML script block closing tag bracket highlighting
 - Remove bold styling from HTML tags
 - Override vscode's default statusbar noFolder background color
+
+## [0.9.7]
+
+- Fix HTML style block closing tag bracket highlighting
