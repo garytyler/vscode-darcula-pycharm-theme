@@ -432,9 +432,10 @@ XML
 HTML
 */
         {
-            "name": "HTML script block closing tag brackets",
+            "name": "HTML embedded block closing tag brackets",
             "scope": [
-                "text.html meta.tag.metadata.script.end punctuation.definition.tag.begin source.js"
+                "text.html meta.tag.metadata.script.end punctuation.definition.tag.begin source",
+                "text.html meta.tag.metadata.style.end punctuation.definition.tag.begin source"
             ],
             "settings": {
                 "foreground": "#FFC66D",
