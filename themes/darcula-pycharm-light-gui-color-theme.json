@@ -252,7 +252,6 @@ Resources
         },
         {
             "scope": [
-                "support.function",
                 "support.constant.handlebars"
             ],
             "settings": {
@@ -606,7 +605,6 @@ CSS
             ],
             "settings": {
                 "foreground": "#B87800"
-                // "foreground": "#CC7832"
             }
         },
         {
@@ -890,6 +888,17 @@ Javascript
             }
         },
         {
+            "name": "Javascript storage types",
+            "scope": [
+                "source.js storage.type.class",
+                "source.js storage.type.interface",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
+            }
+        },
+        {
             "name": "Javascript decorators",
             "scope": [
                 "source.js meta.decorator entity.name.function",
@@ -937,6 +946,37 @@ Javascript
             }
         },
         /*
+Registry
+*/
+        {
+            "scope": [
+                "source.reg entity.name.function.section.delete entity.section",
+                "source.reg entity.name.function.section.delete punctuation.definition.section",
+                "source.reg keyword.operator.arithmetic.minus",
+            ],
+            "settings": {
+                "foreground": "#BBB529"
+            }
+        },
+        {
+            "scope": [
+                "source.reg entity.name.function.section.add entity.section",
+                "source.reg entity.name.function.section.add punctuation.definition.section",
+            ],
+            "settings": {
+                "foreground": "#CC7832"
+            }
+        },
+        {
+            "scope": [
+                "source.reg keyword.control.import",
+                "source.reg punctuation.definition.equals"
+            ],
+            "settings": {
+                "foreground": "#9876AA",
+            }
+        },
+        /*
 INI
 */
         {
@@ -961,8 +1001,7 @@ TOML
         {
             "scope": [
                 "source.toml keyword.key",
-                "source.toml source entity.other.attribute-name.table",
-                "source.toml source entity.other.attribute-name.table.array",
+                "source.toml entity.other",
             ],
             "settings": {
                 "foreground": "#CC7832"
