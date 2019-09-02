@@ -180,13 +180,6 @@ Resources
             }
         },
         {
-            "scope": "constant.character.escape.",
-            "settings": {
-                "foreground": "#CC7832",
-                "fontStyle": ""
-            }
-        },
-        {
             "scope": "constant.numeric",
             "settings": {
                 "foreground": "#6897BB",
@@ -290,7 +283,7 @@ Python
         },
         {
             "scope": [
-                "source.python constant.language",
+                "source.python constant.character.escape",
                 "source.python keyword.operator.logical",
                 "source.python constant.character.format.placeholder.other",
                 "source.python meta.function storage.type.function ",
@@ -478,6 +471,13 @@ HTML
             ],
             "settings": {
                 "foreground": "#6D9CBE",
+            }
+        },
+        {
+            "scope": "text.html constant.character.escape",
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": ""
             }
         },
         /*
@@ -683,8 +683,8 @@ Markdown
 */
         {
             "scope": [
-                "text.html markup.heading.markdown",
-                "text.html markup.heading.setext"
+                "text.html.markdown markup.heading",
+                "text.html.markdown markup.heading.setext"
             ],
             "settings": {
                 "foreground": "#9876AA",
@@ -693,21 +693,16 @@ Markdown
         },
         {
             "scope": [
-                "text.html meta.reference.link.markdown constant.other.markdown",
-                "text.html markup.underline.link.markdown",
+                "text.html.markdown meta.paragraph meta.link.inet markup.underline.link",
+                "text.html.markdown meta.link.inline string",
             ],
             "settings": {
-                "foreground": "#287BDE"
+                "foreground": "#287BDE",
             }
         },
         {
             "scope": [
-                "text.html meta.link.reference.def.markdown punctuation.definition.constant.markdown",
-                "text.html meta.link.reference.def.markdown constant.other",
-                "text.html punctuation.definition.constant.begin.markdown",
-                "text.html punctuation.definition.constant.end.markdown",
-                "text.html punctuation.definition.bold.markdown",
-                "text.html punctuation.definition.italic.markdown",
+                "text.html.markdown meta.link.reference constant.other.reference",
             ],
             "settings": {
                 "foreground": "#CC7832",
@@ -715,9 +710,97 @@ Markdown
         },
         {
             "scope": [
-                "text.html markup.fenced_code.block.markdown",
-                "text.html markup.raw.block.markdown",
-                "text.html markup.inline.raw.markdown"
+                "text.html.markdown meta.link.reference punctuation.definition.constant",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.inet punctuation",
+            ],
+            "settings": {
+                "foreground": "#287BDE",
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.inline punctuation.definition.metadata",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.inline punctuation.definition.string",
+            ],
+            "settings": {
+                "foreground": "#287BDE",
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.paragraph meta.link.reference punctuation.definition.string",
+            ],
+            "settings": {
+                "foreground": "#287BDE",
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.reference markup.underline.link",
+            ],
+            "settings": {
+                "foreground": "#e8bf6a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.inline markup.underline.link",
+            ],
+            "settings": {
+                "foreground": "#e8bf6a",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.reference string.other.link.description.title",
+            ],
+            "settings": {
+                "foreground": "#808080",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown meta.link.reference string.other.link.title",
+                "text.html.markdown meta.reference.link.inline",
+                "text.html.markdown meta.reference.link constant.other",
+            ],
+            "settings": {
+                "foreground": "#287BDE"
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown punctuation.definition.bold",
+                "text.html.markdown punctuation.definition.italic",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "text.html.markdown markup.fenced_code.block",
+                "text.html.markdown markup.raw.block",
+                "text.html.markdown markup.inline.raw"
             ],
             "settings": {
                 "foreground": "#808080",
@@ -725,9 +808,9 @@ Markdown
         },
         {
             "scope": [
-                "text.html markup.quote.markdown",
-                "text.html markup.quote.markdown meta.paragraph.markdown",
-                "text.html markup.quote.markdown heading"
+                "text.html.markdown markup.quote",
+                "text.html.markdown markup.quote meta.paragraph",
+                "text.html.markdown markup.quote heading"
             ],
             "settings": {
                 "foreground": "#6A8759",
@@ -736,7 +819,7 @@ Markdown
         },
         {
             "scope": [
-                "text.html beginning.punctuation.definition.quote.markdown"
+                "text.html.markdown beginning.punctuation.definition.quote"
             ],
             "settings": {
                 "foreground": "#608b4e"
@@ -744,7 +827,7 @@ Markdown
         },
         {
             "scope": [
-                "text.html beginning.punctuation.definition.list.markdown"
+                "text.html.markdown beginning.punctuation.definition.list"
             ],
             "settings": {
                 "foreground": "#6796e6"
@@ -853,8 +936,16 @@ JSON
             }
         },
         /*
-Javascript
-*/
+        Javascript
+        */
+        {
+            "scope": [
+                "source.json constant.character.escape.js",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
         {
             "scope": [
                 "source.js string.regexp"
@@ -943,6 +1034,73 @@ Javascript
             ],
             "settings": {
                 "foreground": "#6A8759"
+            }
+        },
+        /*
+Powershell
+*/
+        {
+            "scope": [
+                "source.powershell keyword.control",
+                "source.powershell storage.type",
+                "source.powershell support.variable.automatic",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "source.powershell support.variable.automatic variable.other.member",
+            ],
+            "settings": {
+                "foreground": "#9876AA",
+            }
+        },
+        {
+            "scope": [
+                "source.powershell entity.name.function",
+                "source.powershell support.function",
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+            }
+        },
+        /*
+Batchfile
+*/
+        {
+            "scope": [
+                "source.batchfile keyword.control.repeat",
+                "source.batchfile keyword.control.statement",
+                "source.batchfile keyword.control.conditional",
+                "source.batchfile keyword.command",
+                "source.batchfile keyword.operator.at",
+                "source.batchfile keyword.operator.logical",
+                "source.batchfile keyword.operator.comparison",
+                "source.batchfile keyword.operator.assignment",
+                "source.batchfile keyword.operator.arithmetic",
+                "source.batchfile keyword.operator.redirection",
+                "source.batchfile keyword.other.special-method",
+            ],
+            "settings": {
+                "foreground": "#CC7832",
+            }
+        },
+        {
+            "scope": [
+                "source.batchfile keyword.other.special-method",
+            ],
+            "settings": {
+                "foreground": "#FFC66D",
+            }
+        },
+        {
+            "scope": [
+                "source.batchfile keyword.command.rem",
+            ],
+            "settings": {
+                "foreground": "#808080",
             }
         },
         /*

@@ -74,3 +74,8 @@
 ## [0.9.7]
 
 - Fix HTML style block closing tag bracket highlighting
+
+## [0.9.8]
+
+- Support for windows scripting syntaxes: powershell, cmd, registry scripts
+- Improved markdown
