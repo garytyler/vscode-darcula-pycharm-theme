@@ -291,7 +291,8 @@ Python
                 "source.python meta.class storage.type.class",
                 "source.python keyword.control.flow",
                 "source.python keyword.control.import",
-                "source.python storage.type.format"
+                "source.python storage.type.format",
+                "source.python storage.modifier"
             ],
             "settings": {
                 "foreground": "#CC7832",

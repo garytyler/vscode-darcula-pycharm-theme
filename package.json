@@ -2,7 +2,7 @@
     "name": "darcula-pycharm",
     "displayName": "Darcula PyCharm Theme",
     "description": "PyCharm's Darcula syntax theme ported with care to VS Code",
-    "version": "0.9.9",
+    "version": "1.0.0",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": false,

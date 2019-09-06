@@ -83,3 +83,7 @@
 ## [0.9.9]
 
 - Fix python constants
+
+## [1.0.0]
+
+- Fix python constants
