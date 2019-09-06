@@ -2,7 +2,7 @@
     "name": "darcula-pycharm",
     "displayName": "Darcula PyCharm Theme",
     "description": "PyCharm's Darcula syntax theme ported with care to VS Code",
-    "version": "0.9.8",
+    "version": "0.9.9",
     "license": "MIT",
     "publisher": "garytyler",
     "preview": false,
@@ -25,8 +25,7 @@
         "python"
     ],
     "contributes": {
-        "themes": [
-            {
+        "themes": [{
                 "label": "Darcula Pycharm with Dark GUI",
                 "uiTheme": "vs-dark",
                 "path": "./themes/darcula-pycharm-dark-gui-color-theme.json"

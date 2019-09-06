@@ -202,7 +202,8 @@ Resources
         },
         {
             "scope": [
-                "constant.keyword"
+                "constant.keyword",
+                "constant.language"
             ],
             "settings": {
                 "foreground": "#CC7832"
@@ -282,6 +283,7 @@ Python
         },
         {
             "scope": [
+                "source.python constant.language",
                 "source.python constant.character.escape",
                 "source.python keyword.operator.logical",
                 "source.python constant.character.format.placeholder.other",

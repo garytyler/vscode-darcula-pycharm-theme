@@ -79,3 +79,7 @@
 
 - Support for windows scripting syntaxes: powershell, cmd, registry scripts
 - Improved markdown
+
+## [0.9.9]
+
+- Fix python constants
