@@ -1,6 +1,6 @@
 # Darcula PyCharm Theme for VS Code
 
-![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg)
+![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/garytyler.darcula-pycharm.svg) ![Downloads](https://vsmarketplacebadge.apphb.com/downloads/garytyler.darcula-pycharm.svg) [![GitHub Repo stars](https://img.shields.io/github/stars/garytyler/vscode-darcula-pycharm-theme?label=Star%20on%20GitHub&style=social)](https://github.com/garytyler/vscode-darcula-pycharm-theme/stargazers)
 
 PyCharm's Darcula syntax theme ported with care to VS Code
 
